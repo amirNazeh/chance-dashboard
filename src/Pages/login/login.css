@@ -1,0 +1,22 @@
+.login {
+  height: 100vh;
+}
+.login button {
+  background-color: #15869b !important;
+  font-weight: 600;
+}
+.spinner-border {
+  --bs-spinner-width: 1.3rem !important;
+  --bs-spinner-height: 1.3rem !important;
+}
+.password-input {
+  position: relative;
+}
+.showPassword {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  right: 20px;
+  bottom: 23px;
+  cursor: pointer;
+}

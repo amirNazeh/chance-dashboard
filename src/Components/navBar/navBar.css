@@ -1,0 +1,9 @@
+.nav {
+  height: 50px;
+  position: fixed;
+  z-index: 5;
+  box-shadow: 14px -12px 20px 0px black;
+}
+.pointer {
+  cursor: pointer;
+}

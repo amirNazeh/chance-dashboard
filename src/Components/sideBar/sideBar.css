@@ -1,0 +1,33 @@
+.sideBar {
+  position: fixed;
+  top: 35px;
+  height: 100%;
+  width: 220px;
+  overflow: auto;
+  z-index: 3;
+  box-shadow: -9px 20px 20px 0px black;
+}
+.sideBar div {
+  margin-top: 10px;
+  text-align-last: left;
+}
+.sideBar .btn {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.sideBar .btn:hover {
+  color: coral !important;
+}
+.sideBar .btn.active {
+  background-color: aqua;
+  border: none;
+}
+@media (max-width: 576px) {
+  .hiddenSide {
+    display: none;
+  }
+  .sideBar {
+    width: 100%;
+  }
+}
